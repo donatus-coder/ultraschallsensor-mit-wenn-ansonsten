@@ -4,6 +4,6 @@ basic.forever(function () {
         basic.setLedColor(0x00ff00)
     } else {
         music.playTone(175, music.beat(BeatFraction.Whole))
-        basic.setLedColor(0xff0000)
+        basic.setLedColor(0x0000ff)
     }
 })
